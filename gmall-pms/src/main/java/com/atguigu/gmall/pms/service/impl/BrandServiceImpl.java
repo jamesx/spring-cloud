@@ -17,7 +17,6 @@ import org.springframework.stereotype.Component;
  * @since 2019-05-08
  */
 @Slf4j
-@Service
 @Component
 public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements BrandService {
 

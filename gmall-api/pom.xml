@@ -28,13 +28,13 @@
             <version>0.2.0</version>
         </dependency>
 
-        <!--吧mybatisplus的包引入防止报错-->
+        <!--mybatisplus的包引入防止报错-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.1.0</version>
             <!--可选依赖，只是为了防止工程mp的注解报错问题-->
-           <!-- <optional>true</optional>-->
+           <!--<optional>true</optional>-->
         </dependency>
 
         <dependency>

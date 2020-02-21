@@ -20,10 +20,8 @@ import java.sql.SQLException;
  */
 @Configuration
 public class PmsDataSourceConfig {
-
     @Bean
     public DataSource dataSource() throws IOException, SQLException {
-
         File file = ResourceUtils.getFile("classpath:sharding-jdbc.yml");
         DataSource dataSource = MasterSlaveDataSourceFactory.createDataSource(file);
         return dataSource;
